@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TP3</string>
+    <string name="appTitle">Um conto de Project Zomboid</string>
+    <string name="descri">Essa é uma historia de fan do Project Zomboid.</string>
+    <string name="capitulos">Capitulos</string>
+    <string name="indice">Índice</string>
+    <string name="capitulo1">capitulo teste 1</string>
+    <string name="capitulo2">capitulo teste 2</string>
+    <string name="capitulo3">capitulo teste 3</string>
+    <string name="capitulo1Title">Hoc est quomodo mortuus est</string>
+    <string name="champter1Content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</string>
+    <string name="desenvolvedor">Desenvolvedor</string>
+    <string name="desenvolvedorNome">Luiz Carlos Ardovino</string>
+    <string name="design">Design</string>
+    <string name="designNome">Luiz Carlos Ardovino</string>
+    <string name="devsButton">Devs</string>
+</resources>

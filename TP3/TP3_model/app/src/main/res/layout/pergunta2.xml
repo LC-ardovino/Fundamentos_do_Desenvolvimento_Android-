@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vermelho_escuro"
+    tools:context="pagina2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:text="@string/qual_o_objetivo_desse_investimento"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="394dp"
+            android:layout_height="304dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <RadioButton
+                android:id="@+id/perg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preserva_o_do_capital_para_n_o_perder_valor_ao_longo_do_tempo_assumindo_baixos_riscos_de_perdas"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/perg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aumento_gradual_do_capital_ao_longo_do_tempo_assumindo_riscos_moderados"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/perg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aumento_do_capital_acima_da_taxa_de_retorno_m_dia_do_mercado_mesmo_que_isso_implique_assumir_riscos_de_perdas_elevadas"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/perg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/obter_no_curto_prazo_retornos_elevados_e_significativamente_acima_da_taxa_de_retorno_m_dia_do_mercado_assumindo_riscos_elevados"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="245dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/proximo_P"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

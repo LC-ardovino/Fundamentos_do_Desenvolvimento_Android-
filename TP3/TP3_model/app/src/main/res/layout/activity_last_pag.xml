@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vermelho_escuro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        tools:context=".last_pag">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="52dp"
+            android:text="@string/banco_paulista"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="@string/o_banco_paulista_agrade_a_a_participa_o"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:text="@string/o_banco_paulista_em_atendimento_s_exig_ncias_regulat_rias_elaborou_o_question_rio_api_com_objetivo_de_auxili_lo_a_identificar_seu_perfil_de_investidor_conservador_moderado_ou_arrojado_e_recomendar_os_investimentos_mais_alinhados_a_esse_perfil_para_cada_quest_o_escolha_a_alternativa_que_mais_se_aproxima_dos_seus_objetivos_e_expectativas_de_investimento"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="179dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            app:srcCompat="@mipmap/img1_round" />
+    </LinearLayout>
+</ScrollView>

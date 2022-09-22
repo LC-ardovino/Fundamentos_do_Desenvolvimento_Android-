@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@color/vermelho_escuro"
+    tools:context=".paginaResultado">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/cinza"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/btn_Sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="32dp"
+        android:text="Cilck aqui para saber mais"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeWidth="2dp"
+        />
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Etapa5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Pergunta_titulo">Perguntas Frequentes</string>
+    <string name="Pergunta1">Pergunta de teste?</string>
+    <string name="Pergunta2">Pergunta de teste?</string>
+    <string name="Pergunta3">Pergunta de teste?</string>
+    <string name="Pergunta4">Pergunta de teste?</string>
+    <string name="Pergunta5">Pergunta de teste?</string>
+    <string name="Resposta1">Resposta</string>
+    <string name="Resposta2">Resposta</string>
+    <string name="Resposta3">Resposta</string>
+    <string name="Resposta4">Resposta</string>
+    <string name="Resposta5">Resposta</string>
+
+</resources>

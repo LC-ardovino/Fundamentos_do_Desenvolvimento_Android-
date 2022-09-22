@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nome_textview"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="52dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nome_TextInputEditText"
+            android:hint="@string/nome_string"
+            android:layout_width="144dp"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cidade_textview"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="18dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cidade_TextInputEditText"
+            android:hint="@string/cidade_string"
+            android:layout_width="221dp"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/status_textview"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/status_TextInputEditText"
+            android:hint="@string/fulano_status"
+            android:layout_width="269dp"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idade_textview"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="156dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idade2_TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:hint="@string/idade_fulano"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

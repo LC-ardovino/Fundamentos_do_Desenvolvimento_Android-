@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/md_theme_light_onPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".FAQFragment"
+        >
+
+
+        <TextView
+            android:id="@+id/PerguntaTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pergunta_titulo"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/Pergunta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pergunta1"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Resposta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Resposta1"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/Pergunta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pergunta2"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Resposta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Resposta1"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/Pergunta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pergunta3"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Resposta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Resposta1"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/Pergunta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pergunta4"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Resposta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Resposta1"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/Pergunta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pergunta5"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Resposta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Resposta1"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+</ScrollView>

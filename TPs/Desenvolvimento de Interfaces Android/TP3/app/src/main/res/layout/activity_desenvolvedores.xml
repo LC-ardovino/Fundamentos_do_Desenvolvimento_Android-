@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:stretchColumns="1"
+    tools:context=".Desenvolvedores">
+    <TableRow>
+        <TextView
+            android:text="@string/desenvolvedor"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/desenvolvedorNome"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/design"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/designNome"
+            android:gravity="end"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>

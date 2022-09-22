@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/vermelho_escuro"
+tools:context="pagina4">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:text="@string/considerando_seus_rendimentos_regulares_qual_a_porcentagem_voc_pretende_reservar_para_aplica_es_financeiras"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="394dp"
+        android:layout_height="304dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/perg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_m_ximo_25"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/perg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entre_25_01_e_50"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/perg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acima_de_50"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="245dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/proximo_P"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

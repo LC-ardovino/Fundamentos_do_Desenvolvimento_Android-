@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Etapa3</string>
+    <string name="labe">label</string>
+    <string name="Anos_completos">Anos completos</string>
+    <string name="avançar">avançar</string>
+    <string name="name_string">Nome</string>
+    <string name="more_info_string">Só mais umas informações…</string>
+    <string name="age_placeholder">18</string>
+    <string name="voting_city_string">Domicilio eleitoral</string>
+    <string name="cadastrar_string">Cadastrar</string>
+
+    <string name="nome_string">Nome</string>
+    <string name="cidade_string">Cidade</string>
+    <string name="idade_fulano">Idade</string>
+    <string name="fulano_status">Status</string>
+
+</resources>

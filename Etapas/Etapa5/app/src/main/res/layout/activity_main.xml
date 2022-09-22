@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FAQFragment"
+    android:background="@color/md_theme_light_onPrimary">
+
+    <TextView
+        android:id="@+id/PerguntaTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pergunta_titulo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Pergunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pergunta2"/>
+<!--    <TextView-->
+<!--        android:id="@+id/Pergunta3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/Pergunta3"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/Pergunta4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/Pergunta4"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/Pergunta5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/Pergunta5"/>-->
+
+
+
+
+</LinearLayout>
